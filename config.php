@@ -47,12 +47,12 @@ __________________________ */
 	$logsize 	= 5242880;				// Max file size, default is 5 MB
 
 // Telegram Bot
-	$telegramId 	= ""; 					// Your Telegram ID
-	$telegramApiKey = ""; 					// Your Telegram API key 
+        $telegramId     = "";                                   // Your Telegram ID
+        $telegramApiKey = "";                                   // Your Telegram API key 
 	$telegramEnable = false;				// Change to true to enable Telegram Bot
 	$telegramSendMessage 	= "https://api.telegram.org/bot$telegramApiKey/sendMessage"; // Full URL to post message
 
 // Check for rank
 	$minRank = 60;
-	$delegateName = maxwell_pp;
+	$delegateName = 'maxwell_pp';
 ?>
