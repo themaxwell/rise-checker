@@ -54,4 +54,5 @@ __________________________ */
 
 // Check for rank
 	$minRank = 60;
+	$delegateName = maxwell_pp;
 ?>

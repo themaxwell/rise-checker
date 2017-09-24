@@ -7,7 +7,7 @@
 	echo "\t\t\tLet's check rank of delegate...\n";
 
 	ini_set("allow_url_fopen", 1);
-	$json = file_get_contents('https://wallet.rise.vision/api/delegates/get?username=maxwell_pp');
+	$json = file_get_contents('https://wallet.rise.vision/api/delegates/get?username='.$delegateName);
 	$obj = json_decode($json);
 	$rank = intval($obj->delegate->rank);
 	
